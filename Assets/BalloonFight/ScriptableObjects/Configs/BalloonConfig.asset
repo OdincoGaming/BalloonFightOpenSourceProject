@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e8dfba97e2343cfb30c78d88a555eb, type: 3}
+  m_Name: BalloonConfig
+  m_EditorClassIdentifier: 
+  _guid: 2768ac104383f434a99aab49b18af2aa
+  description: This is the base config for the balloon.
+  moveForce: 250
+  moveForceOffset: {x: 0, y: -0.2}
+  lookTorqueFrequency: 8
+  lookTorqueDamping: 0.6
+  interactionAreaSize: 1.28
+  interactionAreaOffset: {x: 1, y: -1}
+  proximityToReachInteraction: 0.1
+  punchRecoilForce: -5
+  punchSwingForce: 20
+  punchWindTransition: {fileID: 11400000, guid: 0a8e99f3463584e0a99363bcd4351963, type: 2}
+  punchSwingTransition: {fileID: 11400000, guid: da1f1c56292704fc7aea448d1f0faa1b, type: 2}
+  punchRecoilEvent: {fileID: 11400000, guid: 1ceb6ae4bde814b5cac3d3f5653022e4, type: 2}
+  punchSwingEvent: {fileID: 11400000, guid: 050f7b675383c4042a3cd8db0ad7dcde, type: 2}
+  punchEndEvent: {fileID: 11400000, guid: 46b7a6dbb3c74430c99e1283bbe84ef0, type: 2}

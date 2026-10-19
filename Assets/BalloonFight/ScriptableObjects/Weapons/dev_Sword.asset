@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415c40ff46a7f48fe952e32aad9b9f0e, type: 3}
+  m_Name: dev_Sword
+  m_EditorClassIdentifier: 
+  name: GreatSword
+  model: {fileID: 919132149155446097, guid: 5bb213fa8b819d14688147e9d60ad2a7, type: 3}
+  mesh: {fileID: -21432236276189082, guid: d03af7b390d85de418bf456444c03a7d, type: 3}
+  material: {fileID: 2100000, guid: 03338cc081b3c43c7a311d817dc62b32, type: 2}
+  isTwoHanded: 1
+  collisionAudioCue: {fileID: 0}
+  idleAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes:
+      - 1
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 6c2853ba93cd143b98a39577a24b440b, type: 2}
+    _NormalizedStartTime: NaN
+  fadeTimeToIdle: 1.06
+  primaryPhaseCollection:
+    order: 0
+    phases:
+    - canHold: 0
+      initialTransition: {fileID: 11400000, guid: f15c085c1053549bbb7d7865b52c8585, type: 2}
+      holdTransition: {fileID: 0}
+      releaseTransition: {fileID: 0}
+    - canHold: 0
+      initialTransition: {fileID: 11400000, guid: ab12fb9f9b8794bb6b1c46bfe7d006dc, type: 2}
+      holdTransition: {fileID: 0}
+      releaseTransition: {fileID: 0}
+    - canHold: 0
+      initialTransition: {fileID: 11400000, guid: 4990d46501f4f41c2b32fa4355e89b03, type: 2}
+      holdTransition: {fileID: 0}
+      releaseTransition: {fileID: 0}
+  secondaryPhaseCollection:
+    order: 0
+    phases:
+    - canHold: 1
+      initialTransition: {fileID: 11400000, guid: 01a3b1795f1824de2b77e510ae0bd766, type: 2}
+      holdTransition: {fileID: 0}
+      releaseTransition: {fileID: 0}
+  altPhaseCollection:
+    order: 0
+    phases: []
+  impactEffect: {fileID: 7302256467028870093, guid: ea053f4c24bd54e9ebc27d4e6d69a6db, type: 3}
+  impactAudioCue: {fileID: 11400000, guid: 8703fde5dece044258a9a9f665a0e658, type: 2}
+  references:
+    version: 2
+    RefIds: []

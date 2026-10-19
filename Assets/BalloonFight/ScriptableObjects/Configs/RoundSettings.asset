@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4e570d6354545bfa7854d9256226f9, type: 3}
+  m_Name: RoundSettings
+  m_EditorClassIdentifier: 
+  _guid: a9ece7e669f504198835fa636e44e90d
+  description: 
+  startWaitTime: 3
+  endWaitTime: 2
+  roundCount: 3
+  level: {fileID: 11400000, guid: ad9e0c08b29384c3380ac80613538ec8, type: 2}
+  gameMode: {fileID: 11400000, guid: dc037f4e5259c4ee09c35b5c5ac0caac, type: 2}

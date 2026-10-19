@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: LogicScriptableObjects
+  m_EditorClassIdentifier: 
+  m_GroupName: LogicScriptableObjects
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 187d49772894f4d9baa23674542ce817
+  m_SerializeEntries:
+  - m_GUID: f42a16de317e0471cb4368192474af75
+    m_Address: Assets/BalloonFight/ScriptableObjects/EventChannels
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ebb5adbef362943d1b0e1af6c6e707bb
+    m_Address: Assets/BalloonFight/ScriptableObjects/CollisionActions
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8a0068a8830a45d6a1552b1483321a6
+    m_Address: Assets/BalloonFight/ScriptableObjects/Audio
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dc345717271a4dd298d776f897c3e1c
+    m_Address: Assets/BalloonFight/ScriptableObjects/Weapons
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0cae1164bc22b46728ba365738f55268, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: de95ada2fb76c4ce5be9e1ac459126ac, type: 2}
+    - {fileID: 11400000, guid: 877ecae20d27248deb8aea50b27b6dbf, type: 2}

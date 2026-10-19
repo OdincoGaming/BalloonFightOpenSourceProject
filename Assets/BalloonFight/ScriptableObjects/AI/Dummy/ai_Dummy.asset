@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4828f5732687f4a802b41152fa728b, type: 3}
+  m_Name: ai_Dummy
+  m_EditorClassIdentifier: 
+  _guid: 176306d2911d148a1963f30d4fbf939b
+  description: 
+  name: Dummy
+  behaviourTree: {fileID: 11400000, guid: 127ec6b01173c4e5e9767a9dcca74636, type: 2}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3e1adf6036449dcaffac52e8acc971, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: 
+  _guid: c927f0fa78fc9400ea10053548ae68c8
+  description: Holds the data to create a player
+  _inputAsset: {fileID: -944628639613478452, guid: 4d68bf76fc3d58e4ab7143cca0923e6b, type: 3}
+  _fsm: {fileID: 11400000, guid: 6f0aa70aeaf194695a182dbc80d4b228, type: 2}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: DataScriptableObjects
+  m_EditorClassIdentifier: 
+  m_GroupName: DataScriptableObjects
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7c6f38294943942e08c7a81f3ccbb767
+  m_SerializeEntries:
+  - m_GUID: 8cde95e8c5e4d44c68769a524306f836
+    m_Address: Assets/BalloonFight/ScriptableObjects/SceneData
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31d756747cf4644ce9b656e64322fc34
+    m_Address: Assets/BalloonFight/ScriptableObjects/FiniteStateMachines
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da22fb62b58d94ad1acb8fe46261994d
+    m_Address: Assets/BalloonFight/ScriptableObjects/BehaviourTrees
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95d34cbdc912d486c97f5dd777f4b56f
+    m_Address: Assets/BalloonFight/ScriptableObjects/AI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eedeb8bf6b4a4f939faab2f09dddfed
+    m_Address: Assets/BalloonFight/ScriptableObjects/Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0cae1164bc22b46728ba365738f55268, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 387f31c435a3d4f9b9a201d376e012d6, type: 2}
+    - {fileID: 11400000, guid: 510f2d70eed914ae793bfce75e157d99, type: 2}

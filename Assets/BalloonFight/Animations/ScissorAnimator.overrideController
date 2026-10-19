@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScissorAnimator
+  m_Controller: {fileID: 9100000, guid: 6aea9165514aa4606bc2747414ada499, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6c2853ba93cd143b98a39577a24b440b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c4d14f9e0ba374f30854e9d953cb7de0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a25b7c4edebc941569de10ca25ec7e4a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: dc0b22afca3264dd0adc6693d0f9e412, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c4b80e87109f24e0e85d712c0afee923, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c4b80e87109f24e0e85d712c0afee923, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 06733e629973a49bfb54b96abb454cb2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 06733e629973a49bfb54b96abb454cb2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: bb67701e695444215ab9c6983dec04d9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c4d14f9e0ba374f30854e9d953cb7de0, type: 2}

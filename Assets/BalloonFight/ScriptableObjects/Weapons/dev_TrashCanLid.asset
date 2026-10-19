@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415c40ff46a7f48fe952e32aad9b9f0e, type: 3}
+  m_Name: dev_TrashCanLid
+  m_EditorClassIdentifier: 
+  name: 
+  mesh: {fileID: 4300000, guid: dd05ed01e9fe58e46ad42d955bcfd89f, type: 3}
+  material: {fileID: 2100000, guid: d1a5903867c8f0a4a8a94c3fe36dad11, type: 2}
+  isTwoHanded: 0
+  enableHitboxEvent: {fileID: 11400000, guid: 0ab4878ad1a9a4c91b0f7bb894bc76ef, type: 2}
+  cueAudioEvent: {fileID: 11400000, guid: a489647013aa84a0b9d78d8c2e2077c7, type: 2}
+  enableBlockEvent: {fileID: 11400000, guid: 6a36b607d8bdf40689e9eb0928ed002f, type: 2}
+  moveBalloonEvent: {fileID: 11400000, guid: 55137c759d0e84964a6364b004edf972, type: 2}
+  actionEvent: {fileID: 0}
+  collisionAudioCue: {fileID: 0}
+  idleAnimation:
+    _FadeDuration: 0.25
+    _Speed: 1
+    _Events:
+      _NormalizedTimes:
+      - 1
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 1a56646c89df85d49a8900481880ad76, type: 2}
+    _NormalizedStartTime: NaN
+  fadeTimeToIdle: 1.06
+  primaryPhaseCollection:
+    order: 0
+    phases:
+    - canHold: 1
+      initialTransition: {fileID: 11400000, guid: 66982055f6402f847875fc9126175810, type: 2}
+      holdTransition: {fileID: 0}
+      releaseTransition: {fileID: 0}
+  secondaryPhaseCollection:
+    order: 0
+    phases: []
+  altPhaseCollection:
+    order: 0
+    phases: []
+  impactEffect: {fileID: 7302256467028870093, guid: ea053f4c24bd54e9ebc27d4e6d69a6db, type: 3}
+  impactAudioCue: {fileID: 11400000, guid: 8703fde5dece044258a9a9f665a0e658, type: 2}
+  references:
+    version: 2
+    RefIds: []

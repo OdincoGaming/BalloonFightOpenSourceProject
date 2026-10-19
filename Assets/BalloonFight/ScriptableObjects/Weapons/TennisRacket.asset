@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d2db862793648f9be7f18a647c545b, type: 3}
+  m_Name: TennisRacket
+  m_EditorClassIdentifier: 
+  name: 
+  model: {fileID: 0}
+  mesh: {fileID: 4300000, guid: cb2143329062d1b46be8316173c41b75, type: 3}
+  material: {fileID: 2100000, guid: d1a5903867c8f0a4a8a94c3fe36dad11, type: 2}
+  isTwoHanded: 1
+  collisionAudioCue: {fileID: 0}
+  idleAnimation:
+    _FadeDuration: 0
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: b14240b4fdde04182b26ff1d39e8d28c, type: 2}
+    _NormalizedStartTime: NaN
+  fadeTimeToIdle: 1
+  projectile: {fileID: 4618535185019843699, guid: b938a53ad51084b88972e0265b04af4f, type: 3}
+  hasAmmo: 0
+  ammoCount: 10
+  fireForce: 50
+  hasAnimationFireEvent: 1
+  minTimeToFire: 0.2
+  initialTransition: {fileID: 11400000, guid: b9e3bb469c06d4bae9c9238e9b6ec3c2, type: 2}
+  holdTransition: {fileID: 0}
+  releaseTransition: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

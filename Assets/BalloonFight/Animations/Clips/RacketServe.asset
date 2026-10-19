@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a8877f26e7a6a43aaf06fade1a064a, type: 3}
+  m_Name: RacketServe
+  m_EditorClassIdentifier: 
+  _Transition:
+    rid: 1470232234091085831
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1470232234091085831
+      type: {class: ClipTransition, ns: Animancer, asm: Kybernetik.Animancer}
+      data:
+        _FadeDuration: 0
+        _Speed: 1
+        _Events:
+          _NormalizedTimes:
+          - 0.7360434
+          - 0.7587607
+          - NaN
+          _Callbacks:
+          - rid: -2
+          - rid: 1470232234091085833
+          _Names:
+          - {fileID: 11400000, guid: 4bfa6a2b020834ce086aabcd446c1d2e, type: 2}
+          - {fileID: 11400000, guid: 55137c759d0e84964a6364b004edf972, type: 2}
+        _Clip: {fileID: 7400000, guid: 905b20422419c47a6ba35ff782680b8f, type: 2}
+        _NormalizedStartTime: NaN
+    - rid: 1470232234091085833
+      type: {class: ParameterMovementForce, ns: , asm: Assembly-CSharp}
+      data:
+        "\u200E\u206E\u206C\u206E\u206F\u202D\u200C\u202D\u202A\u202D\u206E\u206B\u206C\u200E\u202A\u202A\u200E\u202E\u202E\u200F\u200B\u206F\u206C\u200C\u202D\u200D\u200D\u206C\u206F\u206B\u206C\u206E\u200E\u200B\u200C\u200F\u200F\u202C\u206E\u200C\u202E":
+          force: 20
+          direction:
+            horizontal: 1
+            vertical: 0
+          forceMode: 1

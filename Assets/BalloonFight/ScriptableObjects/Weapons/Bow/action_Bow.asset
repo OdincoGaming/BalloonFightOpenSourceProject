@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e6dc72a19a5404fafd034e869da485, type: 3}
+  m_Name: action_Bow
+  m_EditorClassIdentifier: 
+  _idleAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 8fa566f349ea147e6a88770e04169d49, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  _startAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: fa2b969273e6c42928f1135c1c479ab1, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  _endAnimation:
+    _FadeDuration: 0.25
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: fa2b969273e6c42928f1135c1c479ab1, type: 2}
+    _Speed: 1
+    _NormalizedStartTime: NaN
+  _canHoldStart: 1
+  _meleeCollisionAction: {fileID: 0}

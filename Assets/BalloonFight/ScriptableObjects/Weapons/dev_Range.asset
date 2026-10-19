@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d2db862793648f9be7f18a647c545b, type: 3}
+  m_Name: dev_Range
+  m_EditorClassIdentifier: 
+  test:
+  - {fileID: 0}
+  <Name>k__BackingField: 
+  modelPrefab: {fileID: 0}
+  isTwoHanded: 1
+  enableHitboxEvent: {fileID: 0}
+  cueAudioEvent: {fileID: 0}
+  enableBlockEvent: {fileID: 0}
+  moveBalloonEvent: {fileID: 0}
+  actionEvent: {fileID: 0}
+  collisionAudioCue: {fileID: 0}
+  idleAnimation:
+    _FadeDuration: 0.16
+    _Speed: 1
+    _Events:
+      _NormalizedTimes: []
+      _Callbacks: []
+      _Names: []
+    _Clip: {fileID: 7400000, guid: 8fa566f349ea147e6a88770e04169d49, type: 2}
+    _NormalizedStartTime: NaN
+  fadeTimeToIdle: 1
+  projectile: {fileID: 7643658087320344217, guid: 3cd655d7a955741fd86d868eef149875, type: 3}
+  hasAmmo: 0
+  ammoCount: 10
+  fireForce: 30
+  hasAnimationFireEvent: 0
+  minTimeToFire: 0.605
+  initialTransition: {fileID: 11400000, guid: 758b06cc6cf544a819ed919103e1d10f, type: 2}
+  holdTransition: {fileID: 11400000, guid: 82056dd7dbe034f5088e338064ca39c8, type: 2}
+  releaseTransition: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

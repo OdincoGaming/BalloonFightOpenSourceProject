@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8db1dee18bca94715bd9b85d6779088f
+  m_SerializeEntries:
+  - m_GUID: df0a8516e30b74d99ba51f6c60b265c7
+    m_Address: Assets/BalloonFight/ScriptableObjects/EventChannels/SceneManagement/LoadMenu_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59213ff75e12d4572a0e577eea3ff9fa
+    m_Address: Assets/BalloonFight/ScriptableObjects/EventChannels/SceneManagement/LoadLevel_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daa84cd826fe04088852755752f8c1c3
+    m_Address: Assets/BalloonFight/ScriptableObjects/EventChannels/SceneManagement/ColdStartup_Channel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cca05f510402492eb6e44951b011314
+    m_Address: Assets/BalloonFight/Scenes/PersistentManagers.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0cae1164bc22b46728ba365738f55268, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f29f4815b231f46f9b30a5cd5dae20ea, type: 2}
+    - {fileID: 11400000, guid: bc430e038ad544b8fb674e6f9460ae2c, type: 2}
