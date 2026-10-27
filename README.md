@@ -1,0 +1,1 @@
+if ye use this ye are not allowed to profit; it is for FREE. not for sale. it is free. if ye attempt to sell this ye have broken the terms of my publishing and are subject to fines. #opensourceeverything
